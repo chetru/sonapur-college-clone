@@ -1,0 +1,362 @@
+.top {
+    padding-left: 40px;
+    margin: 0px;
+    height: 20%;
+
+}
+
+.redcolor {
+    color: #b40000;
+    background-color: #b40000;
+}
+
+
+#scroll-container {
+    border: 1px solid rgb(172, 19, 19);
+    border-radius: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#scroll-text h4 {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.note {
+    border: 1px solid rgb(172, 19, 19);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.foot {
+    background-color: #202124;
+}
+
+.footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer p {
+    line-height: 1.5;
+    color: #ffffff;
+
+}
+
+.footer a {
+    color: #fff;
+}
+
+.last {
+    background-color: #2e2e2e;
+}
+
+.about h2 {
+    font-size: 37px;
+    line-height: 32px;
+    color: #2e2e2e;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    background-color: transparent;
+    color: #000000;
+    text-align: justify;
+    font-family: Verdana;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.card-one h3 {
+    font-size: 22px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e2e2e;
+    display: block;
+}
+
+.card-note {
+    border: 1px solid rgb(172, 19, 19);
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 5px 0px;
+}
+
+a{
+    color: #b40000;
+    font: 13px'PT Sans', san-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-two h3 {
+    font-size: 22px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e2e2e;
+    display: block;
+}
+
+.mid {
+    background-image: url(Images/imageedit_4_8143420301.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+}
+.mid h3{
+    font-size: 22px;
+    line-height: 30px;
+    color: #2e2e2e;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+strong{
+    font-weight: bold;
+}
+.part {
+    background-color: #f4f4f4;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.body {
+    font: 13px 'PT Sans', san-serif;
+    color: #2e2e2e;
+}
+
+.part a{
+    color: #b40000;
+    font-family: verdana;
+    line-height: 24px;
+}
+
+.youtube {
+    font-size: 22px;
+    line-height: 30px;
+    color: #2e2e2e;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.left {
+    float: left;
+    color: #fff;
+}
+
+.right {
+
+    color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+span{
+    font-size: 16px;
+}
+
+.main p {
+    font-family: Verdana;
+    color: #2e2e2e;
+}
+
+.nav-color{
+    color: white !important;
+    background-color: #b40000;
+}
+
+.nav-color:hover{
+    background-color: #b40000;
+}
+
+.red{
+    color: #b40000;
+    text-decoration: none;
+}
+
+.red:hover{
+    color: #b40000;
+    text-decoration: none;
+}
+
+.card-note a{
+    color: #b40000;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+.card-note{
+    background-color: #f4f4f4;
+}
+
+.part a{
+    font-size: 16px;
+}
+.part a:hover{
+    text-decoration: none;
+}
+.part li{
+    list-style: none;
+    color: #b40000;
+}
+
+.curve button{
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.mid a:hover{
+    text-decoration: none;
+}
+
+.mid a{
+    font-weight: 500;
+}
+
+.hover-fix:hover{
+    color: #b40000;
+    text-decoration: none;
+}
+.hover-fix{
+    font-size: 16px;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: #b40000;
+}
+
+.footer p{
+    margin: 2px;
+}
+
+.socials{
+    color: white;
+}
+
+.socials a{
+    font-size: 18px;
+}
+
+.socials i:hover{
+    color: #b40000;
+}
+
+
+.circle-icon {
+    background: #ffc0c0;
+    padding:30px;
+    border-radius: 50%;
+}
+
+.red-nav{
+    background-color: #b40000;
+}
+
+.nav-item{
+    background-color:#b40000;
+}
+
+.nav-link{
+    color: white;
+    margin: 0px 4px;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #b40000 !important;
+    text-decoration: none;
+
+}
+
+.dropdown-menu{
+    background-color: #b40000;
+}
+
+.dropdown-item:hover{
+    background-color: #b40000 !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+
+.navbar-padding{
+    margin-top: -20px;
+}
